@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.container {
+    margin-top: 70px;
+}
+
+.div_panel{
+    margin-top: 80px;
+}
+
+.addCor {
+    background-color: #999;
+    color: white;
+
+}
+
+.destaque {
+    background-color: black;
+    color: white;
+}
+
+.testando {
+    margin-top: 300px;
+    width: 300px;
+    height: 100px;
+
+}
+
+.painelCep {
+    display: none;
+}
+
+.alinhamento {
+    text-align: right;
+    margin-left: 100px;
+}
+
+.fontLabel {
+    font-weight: 100;
+}
+
+#btn_remover a{
+    color: white;
+}
+
+#drag { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; 
+}
+
+#drop { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; 
+}
+
+#selectable {font-size: 2.6em;}
+#selectable .ui-selecting{ background: #FECA40;}
+#selectable .ui-selected{ background: #F39814; color: white;}
+#selectable{ list-style-type: none; margin: 0; padding: 0;}
+#selectable li{ float: left; margin:  3px; padding: 15px; width: 100px; height: 80px; text-align: center;}
+
+#sortable {font-size: 2.6em;}
+#sortable{list-style-type: none; margin:0; padding: 0;}
+#sortable li{float: left; margin: 3px 3px 3px 0; padding: 15px; width: 100px; height: 80px; text-align: center;}
+
