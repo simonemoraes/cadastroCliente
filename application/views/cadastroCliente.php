@@ -49,17 +49,17 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6 col-xs-8">
-                                    <button style="width: 100%;" class="btn btn-info"  id="btn_salvar">
+                                    <button style="width: 100%;" class="btn btn-primary"  id="btn_salvar">
                                         <i class="fa fa-floppy-o" aria-hidden="true"></i> &nbsp;Salvar</button>
                                 </div>
 
                                 <div class="col-md-4 col-sm-6 col-xs-8">
-                                    <button style="width: 100%;" class="btn btn-info" id="btn_remover">
+                                    <button style="width: 100%;" class="btn btn-primary" id="btn_remover">
                                         <i class="fa fa-trash" aria-hidden="true"></i> &nbsp;Remover</button>
                                 </div>
 
                                 <div class="col-md-4 col-sm-6 col-xs-8">
-                                    <button style="width: 100%;" class="btn btn-info" title="Alualizar tabela" id="btn_atualiza">
+                                    <button style="width: 100%;" class="btn btn-primary" title="Alualizar tabela" id="btn_atualiza">
                                         <i class="fa fa-refresh" aria-hidden="true"></i> &nbsp;Atualizar</button>
                                 </div>
 
@@ -79,7 +79,7 @@
                                 <th class="text-center">Id</th>
                                 <th class="text-center">Nome</th>
                                 <th class="text-center">Email</th>
-                                <th class="text-center">Cpf</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -88,11 +88,15 @@
                                     <td id="id"><?= $value['id'] ?></td>
                                     <td id="nome"><?= $value['nome'] ?></td>
                                     <td id="email"><?= $value['email'] ?></td>
-                                    <td id="cpf"><?= $value['cpf'] ?></td>
+
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
+
                     </table>
+                </div>
+                <div class="panel-footer text-center">
+                    <?php echo $paginacao; ?>
                 </div>
 
             </div>

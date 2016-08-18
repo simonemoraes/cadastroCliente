@@ -41,6 +41,10 @@
 $route['default_controller'] = "cadastrocliente_control";
 $route['404_override'] = '';
 
+$route['cadastrocliente/formulario'] = 'cadastrocliente_control/formulario';
+$route['cadastrocliente/formulario/(:num)'] = 'cadastrocliente_control/formulario/';
+
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -30,7 +30,7 @@
                 <div class="navbar-collapse collapse" id="elementoCollapsel">
 
                     <ul class="nav navbar-nav">
-                        <li><a href="<?= base_url("index.php/cadastrocliente_control/formulario") ?>">Cadastra Clientes</a></li>
+                        <li><a href="<?= base_url("index.php/cadastrocliente/formulario") ?>">Cadastra Clientes</a></li>
                         <li><a href="<?= base_url("index.php/cadastrocliente_control/dragAndDrop") ?>">Efeito Drag and Drop</a></li>
                         <li><a href="<?= base_url("index.php/cadastrocliente_control/formularioCep") ?>">Busca por Cep</a></li>
                     </ul>
