@@ -21,8 +21,8 @@ class cadastrocliente_control extends CI_Controller {
     public function formulario() {
         $config = array(
             "base_url" => base_url('index.php/cadastrocliente/formulario'),
-            "per_page" => 3,
-            "num_links" => 3,
+            "per_page" => 3,//numero de registro por link
+            "num_links" => 3,// numero de links na pagina
             "uri_segment" => 3,
             "total_rows" => $this->cadastrocliente_model->countAll(),
             "full_tag_open" => "<ul class='pagination'>", //tag de abertura
