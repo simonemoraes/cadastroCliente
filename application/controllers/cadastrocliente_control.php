@@ -25,16 +25,16 @@ class cadastrocliente_control extends CI_Controller {
             "num_links" => 3,// numero de links na pagina
             "uri_segment" => 3,
             "total_rows" => $this->cadastrocliente_model->countAll(),
-            "full_tag_open" => "<ul class='pagination'>", //tag de abertura
+            "full_tag_open" => "<ul style='margin: 0;' class='pagination'>", //tag de abertura
             "full_tag_close" => "</ul>", //tag de fechamento
             "first_link" => false, //link puxando para a primeira pagina
             "last_link" => false, //link puxando para a ultima pagina
             "first_tag_open" => "<li>", //tag de abertura do primeiro link
             "first_tag_close" => "</li>", //tag de fechamento do primeiro link
-            "prev_link" => "Anterior", //conteudo a ser exibido para o link de paginação que leva a pagina anterior 
+            "prev_link" => "&lt", //conteudo a ser exibido para o link de paginação que leva a pagina anterior 
             "prev_tag_open" => "<li class='prev'>", //tag de abertura para prev link
             "prev_tag_close" => "</li>", //tag de fechamento para prev link
-            "next_link" => "Próxima", //conteudo a ser exibido para o link de paginação que leva a proxima pagina
+            "next_link" => "&gt", //conteudo a ser exibido para o link de paginação que leva a proxima pagina
             "next_tag_open" => "<li class='next'>", //tag de abertura para next link
             "next_tag_close" => "</li>", //tag de fechamento para next link
             "last_tag_open" => "<li>", //tag de abertura para a ultima pagina
